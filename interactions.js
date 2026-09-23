@@ -3,6 +3,61 @@
 (() => {
   "use strict";
 
+  const motionPreference = typeof window.matchMedia === "function"
+    ? window.matchMedia("(prefers-reduced-motion: reduce)")
+    : null;
+
+  if (!("IntersectionObserver" in window) || !motionPreference || motionPreference.matches) return;
+
+  const targets = document.querySelectorAll([
+    ".hero-copy > *",
+    ".hero-art",
+    ".hero-next",
+    ".chapter .stage-marker",
+    ".chapter .section-heading",
+    ".workflow-step",
+    "#convert .image-panel",
+    "#convert .feature-list > div",
+    "#blueprint .blueprint-sheet",
+    "#blueprint .detail-figure",
+    "#blueprint .export-row",
+    "#edit .editor-board",
+    "#edit .edit-notes",
+    "#workspace .saved-grid > figure",
+    "#workspace .outcome-band",
+    "#workspace .save-explainer",
+    "#share .share-origin",
+    "#share .share-destination",
+    "#share .gallery-section",
+    "#share .submission-details",
+    "#try .try-layout > *"
+  ].join(","));
+
+  if (!targets.length) return;
+
+  targets.forEach((target, index) => {
+    target.dataset.reveal = "";
+    target.style.setProperty("--reveal-order", String(index % 3));
+  });
+  document.documentElement.classList.add("reveal-enabled");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-revealed");
+      observer.unobserve(entry.target);
+    });
+  }, {
+    rootMargin: "0px 0px -8% 0px",
+    threshold: 0.08
+  });
+
+  targets.forEach((target) => observer.observe(target));
+})();
+
+(() => {
+  "use strict";
+
   const dialog = document.querySelector(".lightbox");
   if (!dialog || typeof dialog.showModal !== "function") return;
 
@@ -14,7 +69,28 @@
   const zoomButton = dialog.querySelector(".zoom-button");
   const closeButton = dialog.querySelector(".close-button");
   const errorMessage = dialog.querySelector(".lightbox-error");
+  const defaultImageAlt = image.alt;
   let trigger = null;
+  let triggerImage = null;
+
+  function positiveDimension(value) {
+    const number = Number.parseInt(value, 10);
+    return Number.isInteger(number) && number > 0 ? number : 0;
+  }
+
+  function syncImageDetails(link) {
+    triggerImage = link.querySelector("img");
+    const width = positiveDimension(triggerImage?.getAttribute("width")) ||
+      triggerImage?.naturalWidth || 0;
+    const height = positiveDimension(triggerImage?.getAttribute("height")) ||
+      triggerImage?.naturalHeight || 0;
+
+    image.alt = triggerImage?.alt || link.dataset.title || defaultImageAlt;
+    if (width) image.width = width;
+    else image.removeAttribute("width");
+    if (height) image.height = height;
+    else image.removeAttribute("height");
+  }
 
   function setZoom(enabled) {
     scroller.classList.toggle("is-zoomed", enabled);
@@ -32,7 +108,7 @@
       trigger = link;
       title.textContent = link.dataset.title;
       caption.textContent = link.dataset.caption;
-      image.alt = link.querySelector("img").alt;
+      syncImageDetails(link);
       errorMessage.hidden = true;
       image.hidden = false;
       image.src = link.href;
@@ -43,6 +119,10 @@
       document.body.classList.add("has-lightbox");
       closeButton.focus({ preventScroll: true });
     });
+  });
+
+  image.addEventListener("load", () => {
+    if (trigger) syncImageDetails(trigger);
   });
 
   image.addEventListener("error", () => {
@@ -89,5 +169,6 @@
     document.body.classList.remove("has-lightbox");
     setZoom(false);
     if (trigger && trigger.isConnected) trigger.focus({ preventScroll: true });
+    triggerImage = null;
   });
 })();

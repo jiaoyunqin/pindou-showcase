@@ -3,10 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="豆拼拼豆，把喜欢的图片变成自己的拼豆图纸。通过真实使用画面，了解图片转换、色号用量、手动设计、作品保存与分享。">
+  <meta name="description" content="豆拼拼豆，把喜欢的图片变成能照着买、照着拼的拼豆图纸。支持 MARD 221、MARD 144 与 HAMA 色板，自动标注色号、统计用量。">
   <meta name="theme-color" content="#faf9f5">
-  <title>豆拼拼豆 · 从一张图片，到一份创作</title>
+  <link rel="icon" type="image/webp" href="assets/blueprint.webp">
+  <title>豆拼拼豆 · 一格一色，拼出喜欢</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-sections.css">
+  <link rel="stylesheet" href="styles-outcomes.css">
+  <link rel="stylesheet" href="styles-responsive.css">
   <script src="interactions.js" defer></script>
 </head>
 <body>
@@ -30,32 +34,90 @@
   <main id="main">
     <section class="hero container" id="intro" aria-labelledby="intro-title" data-screen-label="01 成品吸引">
       <div class="hero-copy">
-        <p class="eyebrow">豆拼拼豆 · 创作说明册</p>
-        <h1 id="intro-title">把喜欢的图片，<br>变成自己的<br><span>拼豆图纸。</span></h1>
-        <p class="lead">从一张图片出发，生成带网格和色号的图纸。看清用量、调整细节，再把你的创作保存下来。</p>
-        <a class="button" href="#workflow">查看使用步骤 <span aria-hidden="true">↓</span></a>
+        <div class="stage-marker" aria-label="第 1 章，共 8 章；猫咪案例主线：成品总览">
+          <span class="stage-coordinate">C01 / 08</span>
+          <span class="stage-thread stage-thread-main">猫咪案例主线</span>
+          <span class="stage-name">成品总览</span>
+        </div>
+        <h1 id="intro-title">豆拼拼豆<br><span>一格一色，<br>拼出喜欢。</span></h1>
+        <p class="hero-proposition">把喜欢的图片，变成一份可制作的图纸。</p>
+        <p class="lead">每格对应真实品牌色号，每种颜色自动统计用量。从选图、备料到逐格拼合，都有清楚的制作依据。</p>
+        <div class="hero-actions">
+          <a class="button" href="#workflow">查看使用步骤 <span aria-hidden="true">↓</span></a>
+          <figure class="hero-qr">
+            <img src="assets/miniprogram-code.webp" width="430" height="430" alt="豆拼拼豆微信小程序码">
+            <figcaption><strong>微信扫码使用</strong><span>豆拼拼豆小程序</span></figcaption>
+          </figure>
+        </div>
         <ul class="hero-points" aria-label="主要能力">
-          <li>图片转图纸</li>
-          <li>查看色号用量</li>
-          <li>保存与再创作</li>
+          <li>对色号 · MARD / HAMA</li>
+          <li>算用量 · 每色与总数</li>
+          <li>好备料 · 按色号准备</li>
         </ul>
       </div>
       <figure class="hero-art">
         <div class="figure-topline"><span>猫咪图纸案例</span><span>微信小程序实拍</span></div>
-        <a class="image-link hero-image" href="assets/blueprint.webp" data-lightbox data-source="assets/source-s04.webp" data-title="猫咪图纸 · 整体与图例" data-caption="S04 · 图纸整体裁片，保留原截图中的网格、色号和水印。" aria-label="查看大图：猫咪图纸整体与图例">
-          <img src="assets/blueprint.webp" width="1080" height="1855" alt="由图片转换的猫咪拼豆图纸，下方为色号图例与用量" fetchpriority="high">
-          <span class="image-action">查看大图 <span aria-hidden="true">↗</span></span>
-        </a>
-        <figcaption>先看整体，再跟着每一格，找到对应的颜色。</figcaption>
+        <div class="hero-visual-stage">
+          <a class="image-link hero-original" href="assets/original-main-cat.webp" data-lightbox data-source="assets/source-o07.webp" data-title="猫咪案例 · 原始照片" data-caption="O07 · 用户补充的猫咪原始照片，与主线图纸对应。" aria-label="查看大图：猫咪案例原始照片">
+            <img src="assets/original-main-cat.webp" width="1080" height="1440" alt="猫咪主线图纸对应的原始照片" fetchpriority="high">
+            <span>原始图片</span>
+          </a>
+          <a class="image-link hero-image" href="assets/blueprint.webp" data-lightbox data-source="assets/source-s04.webp" data-title="猫咪图纸 · 整体与图例" data-caption="S04 · 图纸整体裁片，保留原截图中的网格、色号和水印。" aria-label="查看大图：猫咪图纸整体与图例">
+            <img src="assets/blueprint.webp" width="1080" height="1855" alt="由图片转换的猫咪拼豆图纸，下方为色号图例与用量" fetchpriority="high">
+            <span class="image-action">查看大图 <span aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+        <figcaption>不只看整体效果，也能按格找色、按量备料。</figcaption>
       </figure>
+      <a class="hero-next" href="#workflow">
+        <span>下一章</span>
+        <strong>02 · 从选图到成型</strong>
+        <span aria-hidden="true">↓</span>
+      </a>
     </section>
 
-    <section class="chapter chapter-tint" id="workflow" aria-labelledby="workflow-title" data-screen-label="02 三步总览">
+    <section class="chapter chapter-tint" id="workflow" aria-labelledby="workflow-title" data-screen-label="02 完整制作链路">
       <div class="container">
+        <div class="stage-marker" aria-label="第 2 章，共 8 章；猫咪案例主线：从选图到成型">
+          <span class="stage-coordinate">C02 / 08</span>
+          <span class="stage-thread stage-thread-main">猫咪案例主线</span>
+          <span class="stage-name">图片 → 图纸 → 成品</span>
+        </div>
         <div class="section-heading">
-          <p class="eyebrow">使用流程</p>
-          <h2 id="workflow-title">从上传到留存，<br class="mobile-break">先看这三步。</h2>
-          <p>用同一只猫咪，走一遍图片成为图纸的过程。</p>
+          <p class="eyebrow">完整制作链路</p>
+          <h2 id="workflow-title">选好图片只是起点，<br>能照着拼出来才是目的。</h2>
+          <p>图纸与备料，是连接画面和成品的关键两步。</p>
+        </div>
+        <ol class="making-path" aria-label="拼豆手工从选图到熨烫成型的五个步骤">
+          <li>
+            <span class="making-path-number">01</span>
+            <strong>选一张图</strong>
+            <small>照片、插画或角色形象</small>
+          </li>
+          <li class="making-path-focus">
+            <span class="making-path-number">02</span>
+            <strong>转成图纸</strong>
+            <small>网格对应品牌色号</small>
+          </li>
+          <li class="making-path-focus">
+            <span class="making-path-number">03</span>
+            <strong>按色号备料</strong>
+            <small>每色用量清楚</small>
+          </li>
+          <li>
+            <span class="making-path-number">04</span>
+            <strong>逐格拼合</strong>
+            <small>对照网格摆放豆子</small>
+          </li>
+          <li>
+            <span class="making-path-number">05</span>
+            <strong>熨烫成型</strong>
+            <small>加热熔合，作品定型</small>
+          </li>
+        </ol>
+        <div class="workflow-product-heading">
+          <p class="eyebrow">在豆拼拼豆里</p>
+          <h3>上传、生成、保存，先拿到这份制作依据。</h3>
         </div>
         <ol class="workflow-grid">
           <li class="workflow-step">
@@ -73,7 +135,7 @@
           </li>
           <li class="workflow-step">
             <div class="step-heading"><span class="step-number">02</span><h3>生成图纸</h3></div>
-            <p>查看猫咪网格图，选择保存或继续调整。</p>
+            <p>网格、品牌色号和每色用量一次算清。</p>
             <figure>
               <div class="device-frame">
                 <a class="image-link device-primary" href="assets/converted.webp" data-lightbox data-source="assets/source-s02.webp" data-title="转换后的猫咪图纸" data-caption="S02 · 图纸区节选；下方操作栏取自同一长截图的另一位置。" aria-label="查看大图：转换后的猫咪图纸">
@@ -110,10 +172,15 @@
 
     <section class="chapter" id="convert" aria-labelledby="convert-title" data-screen-label="03 参数与色板">
       <div class="container">
+        <div class="stage-marker" aria-label="第 3 章，共 8 章；猫咪案例主线：转换设置">
+          <span class="stage-coordinate">C03 / 08</span>
+          <span class="stage-thread stage-thread-main">猫咪案例主线</span>
+          <span class="stage-name">转换设置</span>
+        </div>
         <div class="section-heading">
           <p class="eyebrow">转换设置</p>
-          <h2 id="convert-title">选好色板，<br>调出想要的颗粒感。</h2>
-          <p>从手头的拼豆颜色，到图案的疏密，先把创作的起点选好。</p>
+          <h2 id="convert-title">选对手头的色板，<br>让图片落到真实色号。</h2>
+          <p>再调整图纸大小、颗粒度与算法，找到适合动手制作的效果。</p>
         </div>
         <div class="split-layout parameter-layout">
           <figure class="image-panel">
@@ -124,7 +191,14 @@
             <figcaption>猫咪案例 · 转换参数区节选</figcaption>
           </figure>
           <dl class="feature-list">
-            <div><dt>按手头的品牌选色板</dt><dd>提供 MARD 221 版本、MARD 144 版本和 HAMA 标准三套色板，让图纸颜色对应到可选的拼豆色号。</dd></div>
+            <div>
+              <dt>按手头的品牌选色板</dt>
+              <dd>提供 MARD 221、MARD 144 和 HAMA 标准三套色板，把画面颜色对应到实际可用的品牌色号。</dd>
+              <p class="palette-footnote" role="note">
+                <span class="palette-footnote-label">注</span>
+                <span>可按“品牌 → 色板档位”理解：MARD、HAMA 是两个品牌；221、144 是 MARD 旗下色号数量不同的两档，HAMA 标准是 HAMA 的标准色板。</span>
+              </p>
+            </div>
             <div><dt>调整尺寸与颗粒度</dt><dd>通过图纸大小和颗粒度设置，调整网格密度，寻找适合这张图片的表现方式。</dd></div>
             <div><dt>切换算法查看效果</dt><dd>界面提供六种转换算法。可以尝试不同设置，再决定保留哪一份结果。</dd></div>
           </dl>
@@ -134,10 +208,15 @@
 
     <section class="chapter chapter-tint" id="blueprint" aria-labelledby="blueprint-title" data-screen-label="04 图纸与用量">
       <div class="container">
+        <div class="stage-marker" aria-label="第 4 章，共 8 章；猫咪案例主线：读图与备料">
+          <span class="stage-coordinate">C04 / 08</span>
+          <span class="stage-thread stage-thread-main">猫咪案例主线</span>
+          <span class="stage-name">读图与备料</span>
+        </div>
         <div class="section-heading">
           <p class="eyebrow">读懂图纸</p>
           <h2 id="blueprint-title">每格有色号，<br class="mobile-break">每色有用量。</h2>
-          <p>看整体确定图案，看局部找到颜色，再按统计准备材料。</p>
+          <p>按每格色号摆放，按每色用量准备材料；图案、色号、数量都在同一份图纸里。</p>
         </div>
         <div class="blueprint-layout">
           <figure class="blueprint-sheet">
@@ -150,14 +229,14 @@
           </figure>
           <div class="detail-stack">
             <figure class="detail-figure">
-              <div class="detail-heading"><span class="detail-letter">A</span><div><h3>放大一格，看清色号</h3><p>同一张图纸的局部，按标注找到对应颜色。</p></div></div>
+              <div class="detail-heading"><span class="detail-letter">A</span><div><h3>逐格对色号</h3><p>每一格都标出对应颜色，照品牌色号找豆。</p></div></div>
               <a class="image-link grid-closeup" href="assets/grid-detail.webp" data-lightbox data-source="assets/source-s04.webp" data-title="图纸局部 · 格子与色号" data-caption="S04 · 从整体图纸裁出的局部，原有数字与色号保持不变。" aria-label="查看大图：格子与色号特写">
                 <img src="assets/grid-detail.webp" width="430" height="330" alt="猫咪图纸局部，每个网格内都有 A23、M7 等颜色编号" loading="lazy">
                 <span class="image-action">查看大图 ↗</span>
               </a>
             </figure>
             <figure class="detail-figure">
-              <div class="detail-heading"><span class="detail-letter">B</span><div><h3>按颜色，查看需要多少颗</h3><p>统计列表列出每种色号的用量。</p></div></div>
+              <div class="detail-heading"><span class="detail-letter">B</span><div><h3>按色号算清用量</h3><p>本例为 65 × 87，共 5,655 颗；每色数量也同步汇总。</p></div></div>
               <a class="image-link" href="assets/color-counts.webp" data-lightbox data-source="assets/source-s02.webp" data-title="猫咪案例 · 色号用量统计" data-caption="S02 · 统计列表的前几项，完整列表可在完整截图中查看。" aria-label="查看大图：色号用量统计">
                 <img src="assets/color-counts.webp" width="992" height="655" alt="色号统计区，显示总数及 A23、B23 等颜色的用量" loading="lazy">
                 <span class="image-action">查看大图 ↗</span>
@@ -166,7 +245,7 @@
           </div>
         </div>
         <div class="export-row">
-          <div><h3>图纸，也可以保存成图片</h3><p>转换页提供“导出高清图”入口，图纸中附有色号图例，方便之后查看。</p></div>
+          <div><h3>把制作依据一起保存下来</h3><p>导出的高清图保留网格和色号图例，备料、制作时都能随时对照。</p></div>
           <figure>
             <a class="image-link" href="assets/legend.webp" data-lightbox data-source="assets/source-s04.webp" data-title="图纸底部 · 色号图例" data-caption="S04 · 图片中的色号图例、数量与豆拼拼豆水印。" aria-label="查看大图：图纸中的色号图例">
               <img src="assets/legend.webp" width="1080" height="420" alt="图纸底部的颜色图例、每色数量和豆拼拼豆水印" loading="lazy">
@@ -179,6 +258,11 @@
 
     <section class="chapter" id="edit" aria-labelledby="edit-title" data-screen-label="05 手动设计">
       <div class="container">
+        <div class="stage-marker" aria-label="第 5 章，共 8 章；独立案例分支：手动设计">
+          <span class="stage-coordinate">C05 / 08</span>
+          <span class="stage-thread stage-thread-branch">独立案例分支</span>
+          <span class="stage-name">手动设计</span>
+        </div>
         <div class="section-heading">
           <p class="eyebrow">自由编辑 · 独立手绘示例</p>
           <h2 id="edit-title">想改哪里，<br>就从那一格开始。</h2>
@@ -187,15 +271,15 @@
         <div class="split-layout edit-layout">
           <figure class="editor-board">
             <div class="figure-topline"><span>手动设计画布</span><span>关键区域节选</span></div>
-            <a class="image-link" href="assets/editor-tools.webp" data-lightbox data-source="assets/source-s12.webp" data-title="手动设计工具栏" data-caption="S12 · 画笔、橡皮、吸色、填充、查看、撤销重做与全屏入口。" aria-label="查看大图：编辑工具栏">
+            <a class="image-link" href="assets/editor-tools.webp" data-lightbox data-source="assets/source-s13.webp" data-title="爱心图纸 · 手动设计工具栏" data-caption="S13 · 爱心图纸编辑时的画笔、橡皮、吸色、填充、查看、撤销重做与全屏入口。" aria-label="查看大图：编辑工具栏">
               <img src="assets/editor-tools.webp" width="950" height="269" alt="手动设计工具栏，包含画笔、橡皮、吸色、填充和撤销重做" loading="lazy">
             </a>
             <div class="snippet-divider">画布区域</div>
-            <a class="image-link" href="assets/editor-canvas.webp" data-lightbox data-source="assets/source-s12.webp" data-title="手绘画布 · 独立示例" data-caption="S12 · 单个手绘画布片段，不是前文猫咪图纸的编辑后画面。" aria-label="查看大图：手绘画布">
-              <img src="assets/editor-canvas.webp" width="950" height="1100" alt="手绘网格中的浅黄色图案，已填色格子显示 A1 色号" loading="lazy">
+            <a class="image-link" href="assets/editor-canvas.webp" data-lightbox data-source="assets/source-s13.webp" data-title="手绘画布 · 爱心示例" data-caption="S13 · 红粉爱心手绘画布，不是前文猫咪图纸的编辑后画面。" aria-label="查看大图：爱心手绘画布">
+              <img src="assets/editor-canvas.webp" width="950" height="1100" alt="手绘网格中的红粉爱心图案，格子内显示对应色号" loading="lazy">
               <span class="image-action">查看画布 ↗</span>
             </a>
-            <figcaption>工具栏与画布分别节选自同一张手动设计截图。</figcaption>
+            <figcaption>工具栏与爱心画布分别节选自同一张手动设计截图。</figcaption>
           </figure>
           <div class="edit-notes">
             <dl class="feature-list compact">
@@ -204,11 +288,11 @@
             </dl>
             <figure class="palette-figure">
               <h3>从色板中找到下一种颜色</h3>
-              <a class="image-link" href="assets/editor-palette.webp" data-lightbox data-source="assets/source-s12.webp" data-title="手动设计 · 颜色选择" data-caption="S12 · 品牌色板、当前颜色和按色系筛选的颜色列表。" aria-label="查看大图：编辑器颜色选择">
-                <img src="assets/editor-palette.webp" width="993" height="765" alt="手动设计中的品牌色板和颜色列表，可按色系筛选" loading="lazy">
+              <a class="image-link" href="assets/editor-palette.webp" data-lightbox data-source="assets/source-s14.webp" data-title="爱心图纸 · 颜色选择" data-caption="S14 · 当前选择 A14，并按红系筛选爱心图纸需要的颜色。" aria-label="查看大图：爱心图纸颜色选择">
+                <img src="assets/editor-palette.webp" width="780" height="615" alt="手动设计中的红色色板，当前选择 A14 并按红系筛选" loading="lazy">
                 <span class="image-action">查看色板 ↗</span>
               </a>
-              <figcaption>先选择品牌色板，再按色系寻找颜色。</figcaption>
+              <figcaption>先选择品牌色板，再按红系寻找爱心所需的颜色。</figcaption>
             </figure>
           </div>
         </div>
@@ -217,6 +301,11 @@
 
     <section class="chapter chapter-tint" id="workspace" aria-labelledby="workspace-title" data-screen-label="06 作品管理">
       <div class="container">
+        <div class="stage-marker" aria-label="第 6 章，共 8 章；猫咪案例主线：保存与再编辑">
+          <span class="stage-coordinate">C06 / 08</span>
+          <span class="stage-thread stage-thread-main">猫咪案例主线</span>
+          <span class="stage-name">保存与再编辑</span>
+        </div>
         <div class="section-heading">
           <p class="eyebrow">我的作品库</p>
           <h2 id="workspace-title">作品存下来，<br class="mobile-break">下次接着改。</h2>
@@ -232,11 +321,76 @@
           </figure>
           <figure>
             <div class="figure-topline"><span>手动设计作品</span><span>另一张已保存作品</span></div>
-            <a class="image-link" href="assets/saved-drawing.webp" data-lightbox data-source="assets/source-s03.webp" data-title="作品库 · 手动设计作品" data-caption="S03 · 作品库中的另一张手绘图纸，与前一章黄色画布为不同示例。" aria-label="查看大图：保存的手绘作品卡片">
+            <a class="image-link" href="assets/saved-drawing.webp" data-lightbox data-source="assets/source-s03.webp" data-title="作品库 · 手动设计作品" data-caption="S03 · 作品库中的另一张手绘图纸，与前一章爱心画布为不同示例。" aria-label="查看大图：保存的手绘作品卡片">
               <img src="assets/saved-drawing.webp" width="988" height="750" alt="手动设计作品卡片，显示缩略图和再次编辑入口" loading="lazy">
               <span class="image-action">查看大图 ↗</span>
             </a>
           </figure>
+        </div>
+        <div class="outcome-band" aria-labelledby="outcome-title">
+          <div class="outcome-heading">
+            <div>
+              <p class="eyebrow">更多真实图纸成果 · 独立案例</p>
+              <h3 id="outcome-title">同一套工具，也能画出不同主题。</h3>
+            </div>
+            <p>以下三张用于补充展示真实图纸成果，不属于上方猫咪创作主线。</p>
+          </div>
+          <div class="outcome-originals">
+            <div class="outcome-row-heading">
+              <strong><span>01</span> 原始生成图片</strong>
+              <p>先看创作从哪张图片出发。</p>
+            </div>
+            <div class="outcome-original-grid">
+              <figure>
+                <a class="image-link" href="assets/original-butterfly.webp" data-lightbox data-source="assets/source-o01.webp" data-title="原始生成图片 · 蝴蝶" data-caption="O01 · 与 N04 蝴蝶导出图对应的原始生成图片。" aria-label="查看大图：蝴蝶原始生成图片">
+                  <img src="assets/original-butterfly.webp" width="1128" height="1042" alt="蝴蝶图纸对应的原始生成图片" loading="lazy">
+                  <span class="image-action">查看原图 ↗</span>
+                </a>
+                <figcaption><span>O01</span> 对应 N04 · 蝴蝶</figcaption>
+              </figure>
+              <figure>
+                <a class="image-link" href="assets/original-dog.webp" data-lightbox data-source="assets/source-o03.webp" data-title="原始生成图片 · 小狗" data-caption="O03 · 与 N06 小狗导出图对应的原始生成图片。" aria-label="查看大图：小狗原始生成图片">
+                  <img src="assets/original-dog.webp" width="1080" height="1080" alt="小狗图纸对应的原始生成图片" loading="lazy">
+                  <span class="image-action">查看原图 ↗</span>
+                </a>
+                <figcaption><span>O03</span> 对应 N06 · 小狗</figcaption>
+              </figure>
+              <figure>
+                <a class="image-link" href="assets/original-bow.webp" data-lightbox data-source="assets/source-o04.webp" data-title="原始生成图片 · 蝴蝶结" data-caption="O04 · 与 N09 蝴蝶结导出图对应的原始生成图片。" aria-label="查看大图：蝴蝶结原始生成图片">
+                  <img src="assets/original-bow.webp" width="1080" height="1080" alt="蝴蝶结图纸对应的原始生成图片" loading="lazy">
+                  <span class="image-action">查看原图 ↗</span>
+                </a>
+                <figcaption><span>O04</span> 对应 N09 · 蝴蝶结</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="outcome-row-heading outcome-export-heading">
+            <strong><span>02</span> 导出的拼豆图纸</strong>
+            <p>网格、色号和用量都保留在图纸中。</p>
+          </div>
+          <div class="outcome-grid">
+            <figure>
+              <a class="image-link" href="assets/outcome-butterfly.webp" data-lightbox data-source="assets/source-n04.webp" data-title="更多真实图纸成果 · 蝴蝶" data-caption="N04 · 真实图纸成果，作为独立案例展示，不属于猫咪主线。" aria-label="查看大图：蝴蝶图纸独立案例">
+                <img src="assets/outcome-butterfly.webp" width="1147" height="1867" alt="蝴蝶主题的拼豆图纸成果" loading="lazy">
+                <span class="image-action">查看图纸 ↗</span>
+              </a>
+              <figcaption><span>N04</span> 蝴蝶图纸 · 独立案例</figcaption>
+            </figure>
+            <figure>
+              <a class="image-link" href="assets/outcome-dog.webp" data-lightbox data-source="assets/source-n06.webp" data-title="更多真实图纸成果 · 小狗" data-caption="N06 · 真实图纸成果，作为独立案例展示，不属于猫咪主线。" aria-label="查看大图：小狗图纸独立案例">
+                <img src="assets/outcome-dog.webp" width="1147" height="1748" alt="小狗主题的拼豆图纸成果" loading="lazy">
+                <span class="image-action">查看图纸 ↗</span>
+              </a>
+              <figcaption><span>N06</span> 小狗图纸 · 独立案例</figcaption>
+            </figure>
+            <figure>
+              <a class="image-link" href="assets/outcome-bow.webp" data-lightbox data-source="assets/source-n09.webp" data-title="更多真实图纸成果 · 蝴蝶结" data-caption="N09 · 真实图纸成果，作为独立案例展示，不属于猫咪主线。" aria-label="查看大图：蝴蝶结图纸独立案例">
+                <img src="assets/outcome-bow.webp" width="1147" height="1748" alt="蝴蝶结主题的拼豆图纸成果" loading="lazy">
+                <span class="image-action">查看图纸 ↗</span>
+              </a>
+              <figcaption><span>N09</span> 蝴蝶结图纸 · 独立案例</figcaption>
+            </figure>
+          </div>
         </div>
         <dl class="save-explainer">
           <div><dt>导出图片</dt><dd>拿到一张图纸图片，用来查看和留存。</dd></div>
@@ -248,6 +402,11 @@
 
     <section class="chapter" id="share" aria-labelledby="share-title" data-screen-label="07 分享与灵感">
       <div class="container">
+        <div class="stage-marker" aria-label="第 7 章，共 8 章；猫咪案例主线：分享与再创作">
+          <span class="stage-coordinate">C07 / 08</span>
+          <span class="stage-thread stage-thread-main">猫咪案例主线</span>
+          <span class="stage-name">分享与再创作</span>
+        </div>
         <div class="section-heading">
           <p class="eyebrow">分享与再创作</p>
           <h2 id="share-title">分享一张图，<br>也分享下一次创作的起点。</h2>
@@ -336,17 +495,30 @@
     <section class="chapter try-section" id="try" aria-labelledby="try-title" data-screen-label="08 体验入口">
       <div class="container try-layout">
         <div>
+          <div class="stage-marker" aria-label="第 8 章，共 8 章；下一份创作">
+            <span class="stage-coordinate">C08 / 08</span>
+            <span class="stage-thread stage-thread-next">下一份创作</span>
+            <span class="stage-name">从喜欢出发</span>
+          </div>
           <p class="eyebrow">从喜欢出发</p>
-          <h2 id="try-title">下一份图纸，<br>从你喜欢的一张图片开始。</h2>
-          <p>上传、生成、保存。想再改一点，就回到画布继续画。</p>
-          <!-- 正式入口待补：仅在已核验的产品链接或小程序码可用后替换主动作。 -->
+          <h2 id="try-title">下一份能照着拼的图纸，<br>从你喜欢的一张图片开始。</h2>
+          <p>选图、对色号、算用量，再保存。想改细节，就回到画布继续画。</p>
           <a class="button" href="#workflow">查看使用步骤 <span aria-hidden="true">↑</span></a>
         </div>
-        <aside class="version-note" aria-label="体验版本说明">
-          <h3>关于这些使用画面</h3>
-          <p>本页截图来自微信小程序实际使用，展示图片转换、手动设计及微信分享流程。</p>
-          <p>Web 演示版在当前浏览器本地保存最近 5 件作品。使用时请及时导出重要图纸；它与微信版的分享方式有所不同。</p>
-        </aside>
+        <div class="try-side">
+          <figure class="try-qr">
+            <img src="assets/miniprogram-code.webp" width="430" height="430" alt="豆拼拼豆微信小程序码" loading="lazy">
+            <figcaption>
+              <span class="eyebrow">微信小程序</span>
+              <strong>扫码开始创作</strong>
+              <span>打开微信扫一扫，进入豆拼拼豆。</span>
+            </figcaption>
+          </figure>
+          <aside class="version-note" aria-label="体验版本说明">
+            <h3>关于这些使用画面</h3>
+            <p>本页截图来自微信小程序实际使用，展示图片转换、手动设计及微信分享流程。</p>
+          </aside>
+        </div>
       </div>
     </section>
   </main>
@@ -359,7 +531,7 @@
       <button class="close-button" type="button" aria-label="关闭大图" autofocus><span aria-hidden="true">×</span></button>
     </div>
     <div class="lightbox-scroller" tabindex="0" role="region" aria-label="截图查看区域，可滚动查看原始尺寸">
-      <img class="lightbox-image" alt="">
+      <img class="lightbox-image" width="1080" height="1855" alt="大图预览">
     </div>
     <p class="lightbox-error" role="status" hidden>图片加载失败，可以通过下方链接查看完整截图。</p>
     <div class="lightbox-footer">

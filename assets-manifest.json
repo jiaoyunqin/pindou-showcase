@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 3,
   "coordinateSystem": "original source pixels, [x,y,width,height]",
   "sourcePlatform": "微信小程序实拍",
-  "encoding": "lossless WebP; source JPG pixels retained outside documented redactions",
+  "encoding": "lossless WebP; source pixels retained outside documented redactions",
   "derivationPolicy": "仅裁剪和必要的不可逆纯色脱敏；不缩放、不拼接、不生成或补造界面状态",
   "sources": {
     "S01": {
@@ -342,15 +342,395 @@
         1080,
         4542
       ],
-      "publicFile": "assets/source-s12.webp",
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "processing": "不生成公开副本；仅本地保留原始参考，设备路径等系统信息不进入公开素材"
+    },
+    "S13": {
+      "file": "manual-heart-editor.jpg",
+      "sha256": "1578b44a05221feac1ddd83855e836d05569e78a53805ffcc1b3c8bb8fda62c5",
+      "size": [
+        1080,
+        3424
+      ],
+      "publicFile": "assets/source-s13.webp",
       "publicCrop": [
         0,
         0,
         1080,
-        4542
+        3424
       ],
       "redactions": [],
       "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    "S14": {
+      "file": "manual-heart-palette.png",
+      "sha256": "a36b3f8cf9f98e7ddbb77eb9f9684dc5700914d9d73eac38f0ca993f8eead610",
+      "size": [
+        800,
+        1542
+      ],
+      "publicFile": "assets/source-s14.webp",
+      "publicCrop": [
+        0,
+        0,
+        800,
+        1542
+      ],
+      "redactions": [],
+      "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    "N01": {
+      "file": "微信图片_20260923111821_1156_19.jpg",
+      "sourcePath": "../new_photo/微信图片_20260923111821_1156_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "9ebc05facbe4f4b32a491b8c6b4a7079929af8f0556fc7810cbc4358faf30d6c",
+      "size": [
+        1080,
+        6133
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N02": {
+      "file": "微信图片_20260923111824_1157_19.png",
+      "sourcePath": "../new_photo/微信图片_20260923111824_1157_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "39919446a433aa68327b1cb47a68116445421708a95164f5407313ec6d5ee305",
+      "size": [
+        1171,
+        1461
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N03": {
+      "file": "微信图片_20260923111826_1158_19.jpg",
+      "sourcePath": "../new_photo/微信图片_20260923111826_1158_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "b1422ab023b44108db930713b2f3ea90050c3ba02ebe42d96d118f226d4f2722",
+      "size": [
+        1080,
+        3424
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N04": {
+      "file": "微信图片_20260923111827_1159_19.png",
+      "sourcePath": "../new_photo/微信图片_20260923111827_1159_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "b1b8dcef65146df7c337468f9f9749ad20d8b4ad246f26f1c728697fe886722a",
+      "size": [
+        1147,
+        1867
+      ],
+      "publicFile": "assets/source-n04.webp",
+      "publicCrop": [
+        0,
+        0,
+        1147,
+        1867
+      ],
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息",
+      "processing": "完整画布原像素转换为 lossless WebP；未裁剪、未缩放、未拼接",
+      "auditDecision": "入选：用户确认用于本项目；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N05": {
+      "file": "微信图片_20260923111829_1160_19.jpg",
+      "sourcePath": "../new_photo/微信图片_20260923111829_1160_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "3247a9c0431c61fec1f943801045b667493cc10625d7798bab19a5c9cf555cd9",
+      "size": [
+        1080,
+        11725
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N06": {
+      "file": "微信图片_20260923111830_1161_19.png",
+      "sourcePath": "../new_photo/微信图片_20260923111830_1161_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "5bb1a75017dd108727ed7d33fe89b6f440ab234c78de39cfd4e54691b3dffb18",
+      "size": [
+        1147,
+        1748
+      ],
+      "publicFile": "assets/source-n06.webp",
+      "publicCrop": [
+        0,
+        0,
+        1147,
+        1748
+      ],
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息",
+      "processing": "完整画布原像素转换为 lossless WebP；未裁剪、未缩放、未拼接",
+      "auditDecision": "入选：用户确认用于本项目；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N07": {
+      "file": "微信图片_20260923111833_1162_19.jpg",
+      "sourcePath": "../new_photo/微信图片_20260923111833_1162_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "fb501c3679773d4d2c0146426d9d63638b208138cc5cc6c22067e74210467fcd",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N08": {
+      "file": "微信图片_20260923111835_1163_19.png",
+      "sourcePath": "../new_photo/微信图片_20260923111835_1163_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "f68322d1f74148b5c6dba343ed0c38b58c38e7f3db909785ee8c69f69e3e60d6",
+      "size": [
+        1186,
+        2090
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N09": {
+      "file": "微信图片_20260923111838_1164_19.png",
+      "sourcePath": "../new_photo/微信图片_20260923111838_1164_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "7d9c2e0209da763bb5cc28eb40de01548444b54814e3513d3227d282e4be9632",
+      "size": [
+        1147,
+        1748
+      ],
+      "publicFile": "assets/source-n09.webp",
+      "publicCrop": [
+        0,
+        0,
+        1147,
+        1748
+      ],
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息",
+      "processing": "完整画布原像素转换为 lossless WebP；未裁剪、未缩放、未拼接",
+      "auditDecision": "入选：用户确认用于本项目；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N10": {
+      "file": "微信图片_20260923111841_1165_19.jpg",
+      "sourcePath": "../new_photo/微信图片_20260923111841_1165_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "6957bd2b2562385bc376afbbd7a67e916070116ef0e9d9ee49b286921c0aee2c",
+      "size": [
+        1080,
+        9887
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N11": {
+      "file": "微信图片_20260923111842_1166_19.png",
+      "sourcePath": "../new_photo/微信图片_20260923111842_1166_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "c8260ceff089b68ef0d97c7b38dfc8e145c1029fcfa6168d40bbf9e5296c6140",
+      "size": [
+        1186,
+        1982
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": null
+    },
+    "N12": {
+      "file": "微信图片_20260923111845_1167_19.png",
+      "sourcePath": "../new_photo/微信图片_20260923111845_1167_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "f68322d1f74148b5c6dba343ed0c38b58c38e7f3db909785ee8c69f69e3e60d6",
+      "size": [
+        1186,
+        2090
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：仅保留审计记录；第三方角色权利待对外发布前确认",
+      "duplicateOf": "N08"
+    },
+    "O01": {
+      "file": "微信图片_20260923095728_1149_19.png",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923095728_1149_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "6ad67d5acce7afb3bad89b46e8f560ccabae6a2ddcf79d18d366970e16b5f75c",
+      "size": [
+        1128,
+        1042
+      ],
+      "publicFile": "assets/source-o01.webp",
+      "publicCrop": [
+        0,
+        0,
+        1128,
+        1042
+      ],
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "processing": "完整画布原像素转换为 lossless WebP；未裁剪、未缩放、未拼接",
+      "auditDecision": "入选：与页面现有图纸形成原图对照"
+    },
+    "O02": {
+      "file": "微信图片_20260923100123_1150_19.jpg",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923100123_1150_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "3db8c1d8b85b7edcc942b1334abc7e98eed00218c69221714af88d0cfbb541a4",
+      "size": [
+        750,
+        1000
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：尚无对应的页面图纸证据或存在第三方角色权利风险"
+    },
+    "O03": {
+      "file": "微信图片_20260923100123_1152_19.jpg",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923100123_1152_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "0e71d0eff59f7789a79c42ac3fb7a6beb4971d423ba65008a9d27ee714bc536d",
+      "size": [
+        1080,
+        1080
+      ],
+      "publicFile": "assets/source-o03.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "processing": "完整画布原像素转换为 lossless WebP；未裁剪、未缩放、未拼接",
+      "auditDecision": "入选：与页面现有图纸形成原图对照"
+    },
+    "O04": {
+      "file": "微信图片_20260923100123_1153_19.jpg",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923100123_1153_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "fe94fa9188ae449f7aaa9967a09785d332390370a8faf7f35bfc58d781733fd6",
+      "size": [
+        1080,
+        1080
+      ],
+      "publicFile": "assets/source-o04.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "processing": "完整画布原像素转换为 lossless WebP；未裁剪、未缩放、未拼接",
+      "auditDecision": "入选：与页面现有图纸形成原图对照"
+    },
+    "O05": {
+      "file": "微信图片_20260923100124_1154_19.jpg",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923100124_1154_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "49825c7890aabd4a1423d16aed662491d05125c055de7c912362defe24c8f445",
+      "size": [
+        771,
+        771
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：尚无对应的页面图纸证据或存在第三方角色权利风险"
+    },
+    "O06": {
+      "file": "微信图片_20260923100124_1155_19.jpg",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923100124_1155_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "542a727b3aa09f4001c43e6eb12c2bd2223cd278824993f5d79ea1d97c657939",
+      "size": [
+        1080,
+        1440
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "privacyProcessing": "未生成公开副本；仅登记源文件哈希、尺寸和来源路径",
+      "processing": "未接入公开素材；原文件保持不变",
+      "auditDecision": "未入选：尚无对应的页面图纸证据或存在第三方角色权利风险"
+    },
+    "O07": {
+      "file": "微信图片_20260923144816_1168_19.jpg",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923144816_1168_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "sha256": "80381c3bda0502d9ceb803309e019c76dc506b73f5ea08c99839bac6af00d08f",
+      "size": [
+        1080,
+        1440
+      ],
+      "publicFile": "assets/source-o07.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "processing": "完整画布原像素转换为 lossless WebP；未裁剪、未缩放、未拼接",
+      "auditDecision": "入选：与页面现有图纸形成原图对照"
     }
   },
   "assets": [
@@ -1067,10 +1447,10 @@
     },
     {
       "id": "editor-tools",
-      "source": "S12",
+      "source": "S13",
       "crop": [
         63,
-        2940,
+        1826,
         950,
         269
       ],
@@ -1082,9 +1462,9 @@
       "sections": [
         "edit"
       ],
-      "purpose": "手动设计的全屏、画笔、橡皮、吸色、填充、撤销重做工具",
-      "alt": "手动设计的全屏、画笔、橡皮、吸色、填充、撤销重做工具",
-      "publicSource": "assets/source-s12.webp",
+      "purpose": "爱心图纸编辑时的全屏、画笔、橡皮、吸色、填充、撤销重做工具",
+      "alt": "爱心图纸编辑时的全屏、画笔、橡皮、吸色、填充、撤销重做工具",
+      "publicSource": "assets/source-s13.webp",
       "sourcePlatform": "微信小程序实拍",
       "derivation": "单一来源原像素裁片；无缩放、无拼接",
       "redactions": [],
@@ -1092,10 +1472,10 @@
     },
     {
       "id": "editor-canvas",
-      "source": "S12",
+      "source": "S13",
       "crop": [
-        65,
-        3212,
+        35,
+        2100,
         950,
         1100
       ],
@@ -1107,9 +1487,9 @@
       "sections": [
         "edit"
       ],
-      "purpose": "独立手绘示例，格子内标注 A1 色号",
-      "alt": "独立手绘示例，格子内标注 A1 色号",
-      "publicSource": "assets/source-s12.webp",
+      "purpose": "红粉爱心手绘示例，格子内标注对应色号",
+      "alt": "红粉爱心手绘示例，格子内标注对应色号",
+      "publicSource": "assets/source-s13.webp",
       "sourcePlatform": "微信小程序实拍",
       "derivation": "单一来源原像素裁片；无缩放、无拼接",
       "redactions": [],
@@ -1117,28 +1497,224 @@
     },
     {
       "id": "editor-palette",
-      "source": "S12",
+      "source": "S14",
       "crop": [
-        32,
-        988,
-        993,
-        765
+        20,
+        580,
+        780,
+        615
       ],
       "file": "assets/editor-palette.webp",
       "outputSize": [
-        993,
-        765
+        780,
+        615
       ],
       "sections": [
         "edit"
       ],
-      "purpose": "手动设计的品牌色板与颜色筛选",
-      "alt": "手动设计的品牌色板与颜色筛选",
-      "publicSource": "assets/source-s12.webp",
+      "purpose": "爱心图纸使用的品牌色板、红系筛选与当前颜色",
+      "alt": "爱心图纸使用的品牌色板、红系筛选与当前颜色",
+      "publicSource": "assets/source-s14.webp",
       "sourcePlatform": "微信小程序实拍",
       "derivation": "单一来源原像素裁片；无缩放、无拼接",
       "redactions": [],
       "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "outcome-butterfly",
+      "source": "N04",
+      "sourcePath": "../new_photo/微信图片_20260923111827_1159_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "crop": [
+        0,
+        0,
+        1147,
+        1867
+      ],
+      "file": "assets/outcome-butterfly.webp",
+      "outputSize": [
+        1147,
+        1867
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "完整导出的蝴蝶拼豆图纸，含网格色号和用量图例",
+      "alt": "完整导出的蝴蝶拼豆图纸，含网格色号和用量图例",
+      "publicSource": "assets/source-n04.webp",
+      "sourcePlatform": "豆拼拼豆完整导出图",
+      "derivation": "完整画布原像素格式转换；无裁剪、无缩放、无拼接",
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息",
+      "publicProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息；完整画布原像素转换为 lossless WebP"
+    },
+    {
+      "id": "outcome-dog",
+      "source": "N06",
+      "sourcePath": "../new_photo/微信图片_20260923111830_1161_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "crop": [
+        0,
+        0,
+        1147,
+        1748
+      ],
+      "file": "assets/outcome-dog.webp",
+      "outputSize": [
+        1147,
+        1748
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "完整导出的犬类拼豆图纸，含网格色号和用量图例",
+      "alt": "完整导出的犬类拼豆图纸，含网格色号和用量图例",
+      "publicSource": "assets/source-n06.webp",
+      "sourcePlatform": "豆拼拼豆完整导出图",
+      "derivation": "完整画布原像素格式转换；无裁剪、无缩放、无拼接",
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息",
+      "publicProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息；完整画布原像素转换为 lossless WebP"
+    },
+    {
+      "id": "outcome-bow",
+      "source": "N09",
+      "sourcePath": "../new_photo/微信图片_20260923111838_1164_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "crop": [
+        0,
+        0,
+        1147,
+        1748
+      ],
+      "file": "assets/outcome-bow.webp",
+      "outputSize": [
+        1147,
+        1748
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "完整导出的蝴蝶结拼豆图纸，含网格色号和用量图例",
+      "alt": "完整导出的蝴蝶结拼豆图纸，含网格色号和用量图例",
+      "publicSource": "assets/source-n09.webp",
+      "sourcePlatform": "豆拼拼豆完整导出图",
+      "derivation": "完整画布原像素格式转换；无裁剪、无缩放、无拼接",
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息",
+      "publicProcessing": "无需脱敏；画面仅含图纸、色号用量和产品水印，无可识别个人信息；完整画布原像素转换为 lossless WebP"
+    },
+    {
+      "id": "original-butterfly",
+      "source": "O01",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923095728_1149_19.png",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "crop": [
+        0,
+        0,
+        1128,
+        1042
+      ],
+      "file": "assets/original-butterfly.webp",
+      "outputSize": [
+        1128,
+        1042
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "蝴蝶图纸对应的原始生成图片",
+      "alt": "蝴蝶图纸对应的原始生成图片",
+      "publicSource": "assets/source-o01.webp",
+      "sourcePlatform": "用户提供的原始生成图片",
+      "derivation": "完整画布原像素格式转换；无裁剪、无缩放、无拼接",
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "publicProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息；完整画布原像素转换为 lossless WebP"
+    },
+    {
+      "id": "original-dog",
+      "source": "O03",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923100123_1152_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "crop": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "file": "assets/original-dog.webp",
+      "outputSize": [
+        1080,
+        1080
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "小狗图纸对应的原始生成图片",
+      "alt": "小狗图纸对应的原始生成图片",
+      "publicSource": "assets/source-o03.webp",
+      "sourcePlatform": "用户提供的原始生成图片",
+      "derivation": "完整画布原像素格式转换；无裁剪、无缩放、无拼接",
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "publicProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息；完整画布原像素转换为 lossless WebP"
+    },
+    {
+      "id": "original-bow",
+      "source": "O04",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923100123_1153_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "crop": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "file": "assets/original-bow.webp",
+      "outputSize": [
+        1080,
+        1080
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "蝴蝶结图纸对应的原始生成图片",
+      "alt": "蝴蝶结图纸对应的原始生成图片",
+      "publicSource": "assets/source-o04.webp",
+      "sourcePlatform": "用户提供的原始生成图片",
+      "derivation": "完整画布原像素格式转换；无裁剪、无缩放、无拼接",
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "publicProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息；完整画布原像素转换为 lossless WebP"
+    },
+    {
+      "id": "original-main-cat",
+      "source": "O07",
+      "sourcePath": "../new_photo/original_photo/微信图片_20260923144816_1168_19.jpg",
+      "authorizationAndSourceStatus": "用户于2026-09-23提供并授权用于本次豆拼拼豆推介页；对外发布前仍需确认第三方角色权利",
+      "crop": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "file": "assets/original-main-cat.webp",
+      "outputSize": [
+        1080,
+        1440
+      ],
+      "sections": [
+        "intro"
+      ],
+      "purpose": "猫咪主线图纸对应的原始照片",
+      "alt": "猫咪主线图纸对应的原始照片",
+      "publicSource": "assets/source-o07.webp",
+      "sourcePlatform": "用户提供的原始生成图片",
+      "derivation": "完整画布原像素格式转换；无裁剪、无缩放、无拼接",
+      "redactions": [],
+      "privacyProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息",
+      "publicProcessing": "无需脱敏；画面不含可识别姓名、头像、定位或设备信息；完整画布原像素转换为 lossless WebP"
     }
   ]
 }

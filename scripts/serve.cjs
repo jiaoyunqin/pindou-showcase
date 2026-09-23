@@ -6,7 +6,14 @@ const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
 const port = Number(process.argv[2] || 4174);
-const pageFiles = new Set(["index.html", "styles.css", "interactions.js"]);
+const pageFiles = new Set([
+  "index.html",
+  "styles.css",
+  "styles-sections.css",
+  "styles-outcomes.css",
+  "styles-responsive.css",
+  "interactions.js",
+]);
 const contentTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
@@ -24,14 +31,31 @@ const server = http.createServer((request, response) => {
     response.writeHead(405, { Allow: "GET, HEAD" }).end();
     return;
   }
-  let file;
+
+  const queryStart = request.url.indexOf("?");
+  const rawPath = queryStart === -1 ? request.url : request.url.slice(0, queryStart);
+  let decodedPath;
   try {
-    file = decodeURIComponent(new URL(request.url, "http://localhost").pathname).slice(1) || "index.html";
+    decodedPath = decodeURIComponent(rawPath);
   } catch {
     response.writeHead(400).end("Bad request");
     return;
   }
-  if (!pageFiles.has(file) && !/^assets\/[a-z0-9-]+\.webp$/.test(file)) {
+
+  const segments = decodedPath.split("/");
+  if (!decodedPath.startsWith("/") ||
+      decodedPath.includes("\\") ||
+      decodedPath.includes("\0") ||
+      segments.includes("..")) {
+    response.writeHead(404).end("Not found");
+    return;
+  }
+
+  const requestedFile = decodedPath.slice(1) || "index.html";
+  const file = requestedFile === "favicon.ico" ? "assets/blueprint.webp" : requestedFile;
+  if (requestedFile !== "favicon.ico" &&
+      !pageFiles.has(requestedFile) &&
+      !/^assets\/[a-z0-9-]+\.webp$/.test(requestedFile)) {
     response.writeHead(404).end("Not found");
     return;
   }
