@@ -2,6 +2,10 @@
 
 这是 [spec.md](spec.md) 阶段 B 的独立静态网页。8 个章节、截图及阅读交互已接入，精细美化在结构审阅后进行。
 
+线上预览：<https://showcase-html.vercel.app>
+
+GitHub：<https://github.com/jiaoyunqin/pindou-showcase>
+
 ## 打开预览
 
 直接打开 `index.html` 即可。移动或复制时，一起保留 `styles.css`、`interactions.js` 和 `assets/`。
@@ -44,4 +48,4 @@ node scripts/serve.cjs 4180
 | `scripts/serve.cjs` | 本机预览，仅提供页面文件与派生素材 |
 | `verification/` | 浏览器检查结果、素材核对结果及截图 |
 
-原始 JPG 保持不变。分享卡片已裁去会话信息，投稿和审核截图已遮挡昵称等标识。预览服务不会提供原始 JPG 或规划文件。当前目录未发布到云端。
+原始 JPG 保持不变。分享卡片已裁去会话信息，投稿和审核截图已遮挡昵称等标识。预览服务和线上部署均不会提供原始 JPG、规划文件或验证截图。
