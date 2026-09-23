@@ -185,61 +185,6 @@ figcaption {
   transform: translateY(0);
 }
 
-/* The chapter label doubles as a grid coordinate and a case-status key. */
-.stage-marker {
-  display: grid;
-  grid-template-columns: 88px 170px minmax(0, 1fr);
-  align-items: center;
-  max-width: 760px;
-  min-height: 38px;
-  margin-bottom: 30px;
-  border-block: 1px solid var(--line);
-  color: var(--muted);
-  font: 11px/1.35 var(--number-font);
-  letter-spacing: .08em;
-}
-
-.stage-coordinate {
-  color: var(--orange);
-  font-weight: 700;
-}
-
-.stage-thread {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  color: var(--ink);
-  font-family: var(--body-font);
-  font-weight: 600;
-  letter-spacing: .04em;
-}
-
-.stage-thread::before {
-  width: 8px;
-  height: 8px;
-  border: 1px solid var(--orange);
-  content: "";
-}
-
-.stage-thread-main::before {
-  background: var(--orange);
-}
-
-.stage-thread-branch::before {
-  background: transparent;
-}
-
-.stage-thread-next::before {
-  border-color: var(--ink);
-  background: var(--ink);
-}
-
-.stage-name {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 /* Compact contents bar. */
 .site-header {
   position: sticky;

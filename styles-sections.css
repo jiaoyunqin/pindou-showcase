@@ -12,11 +12,6 @@
   padding-block: 18px;
 }
 
-.hero-copy .stage-marker {
-  grid-template-columns: 76px 150px minmax(0, 1fr);
-  margin-bottom: 34px;
-}
-
 .hero h1 {
   max-width: 650px;
   line-height: 1.16;
@@ -871,11 +866,6 @@ details[open] .disclosure-icon::before {
   grid-template-columns: minmax(0, 1.5fr) minmax(300px, 1fr);
   gap: 70px;
   align-items: center;
-}
-
-.try-layout .stage-marker {
-  margin-bottom: 28px;
-  border-color: #d2a88e;
 }
 
 .try-section h2 {

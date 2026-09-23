@@ -192,20 +192,6 @@
     padding-block: 62px 68px;
   }
 
-  .stage-marker,
-  .hero-copy .stage-marker {
-    grid-template-columns: 72px minmax(0, 1fr);
-    gap: 0 8px;
-    min-height: 48px;
-    margin-bottom: 25px;
-    padding-block: 6px;
-    font-size: 10px;
-  }
-
-  .stage-name {
-    grid-column: 2;
-  }
-
   .eyebrow {
     font-size: 12px;
   }

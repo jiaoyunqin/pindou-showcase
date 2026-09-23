@@ -13,7 +13,6 @@
     ".hero-copy > *",
     ".hero-art",
     ".hero-next",
-    ".chapter .stage-marker",
     ".chapter .section-heading",
     ".workflow-step",
     "#convert .image-panel",
