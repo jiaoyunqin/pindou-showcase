@@ -1,0 +1,1144 @@
+{
+  "version": 2,
+  "coordinateSystem": "original source pixels, [x,y,width,height]",
+  "sourcePlatform": "微信小程序实拍",
+  "encoding": "lossless WebP; source JPG pixels retained outside documented redactions",
+  "derivationPolicy": "仅裁剪和必要的不可逆纯色脱敏；不缩放、不拼接、不生成或补造界面状态",
+  "sources": {
+    "S01": {
+      "file": "微信图片_20260922212915_1134_19.jpg",
+      "sha256": "130ec3e00242150e4eda95f77f670ceff096efc304d4fac14199b2d8dccef845",
+      "size": [
+        1080,
+        2939
+      ],
+      "publicFile": "assets/source-s01.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        2939
+      ],
+      "redactions": [],
+      "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    "S02": {
+      "file": "微信图片_20260922212921_1135_19.jpg",
+      "sha256": "934d8cd621334e972ac12e39b8c97cca0cef01ad5414100803139e52c4525c14",
+      "size": [
+        1080,
+        8550
+      ],
+      "publicFile": "assets/source-s02.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        8550
+      ],
+      "redactions": [],
+      "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    "S03": {
+      "file": "微信图片_20260922212923_1136_19.jpg",
+      "sha256": "281b0e40cc1f47b6e260e2185f0d9587f0ccfb98acddc018e262f63891d2f755",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": "assets/source-s03.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "redactions": [],
+      "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    "S04": {
+      "file": "微信图片_20260922212926_1137_19.jpg",
+      "sha256": "75ae7d1f9689542b5d0650141a62df6a5dc10522af9fee08a89e1bd30bad6de9",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": "assets/source-s04.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "redactions": [],
+      "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    "S05": {
+      "file": "微信图片_20260922212928_1138_19.jpg",
+      "sha256": "74a885ebf29e0681c83dcaf202520cc32edfe40600c08a2989a0c67c80dc8bfa",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "processing": "不生成公开副本；仅本地保留原始参考，设备路径等系统信息不进入公开素材"
+    },
+    "S06": {
+      "file": "微信图片_20260922212932_1139_19.jpg",
+      "sha256": "c7c63ba7d311290f05e9e5df36e53f84ed2e860980ea846fbc709281b7c521ee",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": null,
+      "publicCrop": null,
+      "redactions": [],
+      "processing": "不生成公开副本；仅本地保留原始参考，设备路径等系统信息不进入公开素材"
+    },
+    "S07": {
+      "file": "微信图片_20260922212933_1140_19.jpg",
+      "sha256": "3c16cdbf09ccf9ee176b4b190daaa863e41cc8d0cbcbae3870e5dc4cc9d859a7",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": "assets/source-s07.webp",
+      "publicCrop": [
+        205,
+        520,
+        710,
+        802
+      ],
+      "redactions": [],
+      "processing": "仅裁取产品分享卡片，排除聊天对象、头像、其他消息、键盘和输入内容；未缩放、未拼接、未补造状态"
+    },
+    "S08": {
+      "file": "微信图片_20260922212936_1141_19.jpg",
+      "sha256": "53a293d07505e2ee45a70364b50e290f82f7aeb5033082331624688ef0e02b19",
+      "size": [
+        1080,
+        2620
+      ],
+      "publicFile": "assets/source-s08.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        2620
+      ],
+      "redactions": [],
+      "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    "S09": {
+      "file": "微信图片_20260922212940_1142_19.jpg",
+      "sha256": "95c9bcce7322f8a66f5aa0401b5e755b26200d55094e3240c02e4844aa6895cf",
+      "size": [
+        1080,
+        5570
+      ],
+      "publicFile": "assets/source-s09.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        5570
+      ],
+      "redactions": [
+        {
+          "sourceRect": [
+            410,
+            875,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            1264,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            1653,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            2042,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            2431,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            2820,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            3209,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            3598,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            3987,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            4376,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            4765,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            5154,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "processing": "作品卡片作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    "S10": {
+      "file": "微信图片_20260922212941_1143_19.jpg",
+      "sha256": "4158f739ba07a941b348f69e909b7745261dae67d01c33dc7bec79dc5c0ddc46",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": "assets/source-s10.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "redactions": [
+        {
+          "sourceRect": [
+            85,
+            600,
+            128,
+            132
+          ],
+          "reason": "投稿账号头像",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            230,
+            615,
+            355,
+            61
+          ],
+          "reason": "投稿账号昵称",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "processing": "投稿账号头像、投稿账号昵称使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    "S11": {
+      "file": "微信图片_20260922212943_1144_19.jpg",
+      "sha256": "6397a0051c27d1fe7cf7d5e9986b7e0667cd64799a77098373ba45f3e088e604",
+      "size": [
+        1080,
+        2340
+      ],
+      "publicFile": "assets/source-s11.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "redactions": [
+        {
+          "sourceRect": [
+            278,
+            726,
+            248,
+            41
+          ],
+          "reason": "待审核作品作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "processing": "待审核作品作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    "S12": {
+      "file": "微信图片_20260922212945_1145_19.jpg",
+      "sha256": "9356afbffbc448e9d436cd21bf0938088c6610b2722b4374bc6eeceacd625ff9",
+      "size": [
+        1080,
+        4542
+      ],
+      "publicFile": "assets/source-s12.webp",
+      "publicCrop": [
+        0,
+        0,
+        1080,
+        4542
+      ],
+      "redactions": [],
+      "processing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    }
+  },
+  "assets": [
+    {
+      "id": "upload",
+      "source": "S01",
+      "crop": [
+        30,
+        245,
+        998,
+        1330
+      ],
+      "file": "assets/upload.webp",
+      "outputSize": [
+        998,
+        1330
+      ],
+      "sections": [
+        "workflow"
+      ],
+      "purpose": "上传前的像素转换页面与参数区",
+      "alt": "上传前的像素转换页面与参数区",
+      "publicSource": "assets/source-s01.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "converted",
+      "source": "S02",
+      "crop": [
+        65,
+        1600,
+        948,
+        1260
+      ],
+      "file": "assets/converted.webp",
+      "outputSize": [
+        948,
+        1260
+      ],
+      "sections": [
+        "workflow"
+      ],
+      "purpose": "生成后的猫咪像素图纸",
+      "alt": "生成后的猫咪像素图纸",
+      "publicSource": "assets/source-s02.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "output-actions",
+      "source": "S02",
+      "crop": [
+        66,
+        3738,
+        948,
+        140
+      ],
+      "file": "assets/output-actions.webp",
+      "outputSize": [
+        948,
+        140
+      ],
+      "sections": [
+        "workflow",
+        "blueprint"
+      ],
+      "purpose": "导出高清图、保存至作品库和手动调整入口",
+      "alt": "导出高清图、保存至作品库和手动调整入口",
+      "publicSource": "assets/source-s02.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "parameters",
+      "source": "S02",
+      "crop": [
+        35,
+        635,
+        992,
+        940
+      ],
+      "file": "assets/parameters.webp",
+      "outputSize": [
+        992,
+        940
+      ],
+      "sections": [
+        "convert"
+      ],
+      "purpose": "品牌色板、六种算法、图纸大小和颗粒度设置",
+      "alt": "品牌色板、六种算法、图纸大小和颗粒度设置",
+      "publicSource": "assets/source-s02.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "color-counts",
+      "source": "S02",
+      "crop": [
+        35,
+        3926,
+        992,
+        655
+      ],
+      "file": "assets/color-counts.webp",
+      "outputSize": [
+        992,
+        655
+      ],
+      "sections": [
+        "blueprint"
+      ],
+      "purpose": "色号统计及部分颜色用量",
+      "alt": "色号统计及部分颜色用量",
+      "publicSource": "assets/source-s02.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "workspace",
+      "source": "S03",
+      "crop": [
+        30,
+        280,
+        998,
+        1840
+      ],
+      "file": "assets/workspace.webp",
+      "outputSize": [
+        998,
+        1840
+      ],
+      "sections": [
+        "workflow",
+        "workspace"
+      ],
+      "purpose": "作品库中的猫咪图纸和手绘作品",
+      "alt": "作品库中的猫咪图纸和手绘作品",
+      "publicSource": "assets/source-s03.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "saved-cat",
+      "source": "S03",
+      "crop": [
+        35,
+        599,
+        988,
+        729
+      ],
+      "file": "assets/saved-cat.webp",
+      "outputSize": [
+        988,
+        729
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "猫咪图纸作品卡片及再次编辑入口",
+      "alt": "猫咪图纸作品卡片及再次编辑入口",
+      "publicSource": "assets/source-s03.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "saved-drawing",
+      "source": "S03",
+      "crop": [
+        35,
+        1360,
+        988,
+        750
+      ],
+      "file": "assets/saved-drawing.webp",
+      "outputSize": [
+        988,
+        750
+      ],
+      "sections": [
+        "workspace"
+      ],
+      "purpose": "作品库中的手绘图纸",
+      "alt": "作品库中的手绘图纸",
+      "publicSource": "assets/source-s03.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "blueprint",
+      "source": "S04",
+      "crop": [
+        0,
+        245,
+        1080,
+        1855
+      ],
+      "file": "assets/blueprint.webp",
+      "outputSize": [
+        1080,
+        1855
+      ],
+      "sections": [
+        "intro",
+        "blueprint"
+      ],
+      "purpose": "猫咪图纸整体，含网格、色号及图例",
+      "alt": "猫咪图纸整体，含网格、色号及图例",
+      "publicSource": "assets/source-s04.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "grid-detail",
+      "source": "S04",
+      "crop": [
+        370,
+        650,
+        430,
+        330
+      ],
+      "file": "assets/grid-detail.webp",
+      "outputSize": [
+        430,
+        330
+      ],
+      "sections": [
+        "blueprint"
+      ],
+      "purpose": "猫咪图纸局部：每格标注对应色号",
+      "alt": "猫咪图纸局部：每格标注对应色号",
+      "publicSource": "assets/source-s04.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "legend",
+      "source": "S04",
+      "crop": [
+        0,
+        1680,
+        1080,
+        420
+      ],
+      "file": "assets/legend.webp",
+      "outputSize": [
+        1080,
+        420
+      ],
+      "sections": [
+        "blueprint"
+      ],
+      "purpose": "导出图纸中的色号图例和数量",
+      "alt": "导出图纸中的色号图例和数量",
+      "publicSource": "assets/source-s04.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "share-card",
+      "source": "S07",
+      "crop": [
+        205,
+        520,
+        710,
+        802
+      ],
+      "file": "assets/share-card.webp",
+      "outputSize": [
+        710,
+        802
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "微信会话中的豆拼拼豆分享卡片",
+      "alt": "微信会话中的豆拼拼豆分享卡片",
+      "publicSource": "assets/source-s07.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅裁取产品分享卡片，排除聊天对象、头像、其他消息、键盘和输入内容；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "shared-work",
+      "source": "S08",
+      "crop": [
+        60,
+        450,
+        945,
+        1715
+      ],
+      "file": "assets/shared-work.webp",
+      "outputSize": [
+        945,
+        1715
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "接收方打开分享后的图纸",
+      "alt": "接收方打开分享后的图纸",
+      "publicSource": "assets/source-s08.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "remix-actions",
+      "source": "S08",
+      "crop": [
+        35,
+        2210,
+        1010,
+        360
+      ],
+      "file": "assets/remix-actions.webp",
+      "outputSize": [
+        1010,
+        360
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "基于此图二次创作、导出与开始制作入口",
+      "alt": "基于此图二次创作、导出与开始制作入口",
+      "publicSource": "assets/source-s08.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "gallery",
+      "source": "S09",
+      "crop": [
+        28,
+        275,
+        996,
+        2040
+      ],
+      "file": "assets/gallery.webp",
+      "outputSize": [
+        996,
+        2040
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "精选作品库和四个图纸示例",
+      "alt": "精选作品库和四个图纸示例",
+      "publicSource": "assets/source-s09.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [
+        {
+          "sourceRect": [
+            410,
+            875,
+            300,
+            64
+          ],
+          "derivedRect": [
+            382,
+            600,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            1264,
+            300,
+            64
+          ],
+          "derivedRect": [
+            382,
+            989,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            1653,
+            300,
+            64
+          ],
+          "derivedRect": [
+            382,
+            1378,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            410,
+            2042,
+            300,
+            64
+          ],
+          "derivedRect": [
+            382,
+            1767,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "publicProcessing": "作品卡片作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "gallery-heart",
+      "source": "S09",
+      "crop": [
+        35,
+        795,
+        990,
+        345
+      ],
+      "file": "assets/gallery-heart.webp",
+      "outputSize": [
+        990,
+        345
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "精选作品：糖果爱心",
+      "alt": "精选作品：糖果爱心",
+      "publicSource": "assets/source-s09.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [
+        {
+          "sourceRect": [
+            410,
+            875,
+            300,
+            64
+          ],
+          "derivedRect": [
+            375,
+            80,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "publicProcessing": "作品卡片作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "gallery-smile",
+      "source": "S09",
+      "crop": [
+        35,
+        1182,
+        990,
+        343
+      ],
+      "file": "assets/gallery-smile.webp",
+      "outputSize": [
+        990,
+        343
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "精选作品：笑脸贴纸",
+      "alt": "精选作品：笑脸贴纸",
+      "publicSource": "assets/source-s09.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [
+        {
+          "sourceRect": [
+            410,
+            1264,
+            300,
+            64
+          ],
+          "derivedRect": [
+            375,
+            82,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "publicProcessing": "作品卡片作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "gallery-strawberry",
+      "source": "S09",
+      "crop": [
+        35,
+        1574,
+        990,
+        343
+      ],
+      "file": "assets/gallery-strawberry.webp",
+      "outputSize": [
+        990,
+        343
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "精选作品：草莓果果",
+      "alt": "精选作品：草莓果果",
+      "publicSource": "assets/source-s09.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [
+        {
+          "sourceRect": [
+            410,
+            1653,
+            300,
+            64
+          ],
+          "derivedRect": [
+            375,
+            79,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "publicProcessing": "作品卡片作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "gallery-flower",
+      "source": "S09",
+      "crop": [
+        35,
+        1962,
+        990,
+        343
+      ],
+      "file": "assets/gallery-flower.webp",
+      "outputSize": [
+        990,
+        343
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "精选作品：春日郁金香",
+      "alt": "精选作品：春日郁金香",
+      "publicSource": "assets/source-s09.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [
+        {
+          "sourceRect": [
+            410,
+            2042,
+            300,
+            64
+          ],
+          "derivedRect": [
+            375,
+            80,
+            300,
+            64
+          ],
+          "reason": "作品卡片作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "publicProcessing": "作品卡片作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "submission",
+      "source": "S10",
+      "crop": [
+        30,
+        275,
+        997,
+        1745
+      ],
+      "file": "assets/submission.webp",
+      "outputSize": [
+        997,
+        1745
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "投稿表单：已选作品和标签，截图处于提交中",
+      "alt": "投稿表单：已选作品和标签，截图处于提交中",
+      "publicSource": "assets/source-s10.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [
+        {
+          "sourceRect": [
+            85,
+            600,
+            128,
+            132
+          ],
+          "derivedRect": [
+            55,
+            325,
+            128,
+            132
+          ],
+          "reason": "投稿账号头像",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        },
+        {
+          "sourceRect": [
+            230,
+            615,
+            355,
+            61
+          ],
+          "derivedRect": [
+            200,
+            340,
+            355,
+            61
+          ],
+          "reason": "投稿账号昵称",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "publicProcessing": "投稿账号头像、投稿账号昵称使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "review",
+      "source": "S11",
+      "crop": [
+        30,
+        275,
+        997,
+        1100
+      ],
+      "file": "assets/review.webp",
+      "outputSize": [
+        997,
+        1100
+      ],
+      "sections": [
+        "share"
+      ],
+      "purpose": "管理员审核页面：该作品处于审核中",
+      "alt": "管理员审核页面：该作品处于审核中",
+      "publicSource": "assets/source-s11.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [
+        {
+          "sourceRect": [
+            278,
+            726,
+            248,
+            41
+          ],
+          "derivedRect": [
+            248,
+            451,
+            248,
+            41
+          ],
+          "reason": "待审核作品作者显示名",
+          "method": "不可逆纯色遮挡 #d9dce0"
+        }
+      ],
+      "publicProcessing": "待审核作品作者显示名使用不可逆纯色遮挡；其余内容仅裁剪，未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "editor-tools",
+      "source": "S12",
+      "crop": [
+        63,
+        2940,
+        950,
+        269
+      ],
+      "file": "assets/editor-tools.webp",
+      "outputSize": [
+        950,
+        269
+      ],
+      "sections": [
+        "edit"
+      ],
+      "purpose": "手动设计的全屏、画笔、橡皮、吸色、填充、撤销重做工具",
+      "alt": "手动设计的全屏、画笔、橡皮、吸色、填充、撤销重做工具",
+      "publicSource": "assets/source-s12.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "editor-canvas",
+      "source": "S12",
+      "crop": [
+        65,
+        3212,
+        950,
+        1100
+      ],
+      "file": "assets/editor-canvas.webp",
+      "outputSize": [
+        950,
+        1100
+      ],
+      "sections": [
+        "edit"
+      ],
+      "purpose": "独立手绘示例，格子内标注 A1 色号",
+      "alt": "独立手绘示例，格子内标注 A1 色号",
+      "publicSource": "assets/source-s12.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    },
+    {
+      "id": "editor-palette",
+      "source": "S12",
+      "crop": [
+        32,
+        988,
+        993,
+        765
+      ],
+      "file": "assets/editor-palette.webp",
+      "outputSize": [
+        993,
+        765
+      ],
+      "sections": [
+        "edit"
+      ],
+      "purpose": "手动设计的品牌色板与颜色筛选",
+      "alt": "手动设计的品牌色板与颜色筛选",
+      "publicSource": "assets/source-s12.webp",
+      "sourcePlatform": "微信小程序实拍",
+      "derivation": "单一来源原像素裁片；无缩放、无拼接",
+      "redactions": [],
+      "publicProcessing": "仅按原始像素裁剪或转换格式；未缩放、未拼接、未补造状态"
+    }
+  ]
+}

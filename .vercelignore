@@ -1,0 +1,8 @@
+.git/
+.gitignore
+planning/
+verification/
+scripts/
+spec.md
+assets-manifest.json
+*.jpg
